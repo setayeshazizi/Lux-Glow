@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - LuxeGlow</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/photo_2026-06-30_09-28-29-removebg-preview.png">
+
+</head>
+
+<body>
+
+    <div class="container-fluid topbar bg-dark d-none d-lg-block py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="top-info text-white-50 small">
+                    <span class="me-3"><i class="fas fa-map-marker-alt text-pink me-2"></i>123 Luxury Ave, New
+                        York</span>
+                    <span><i class="fas fa-envelope text-pink me-2"></i>support@luxeglow.com</span>
+                </div>
+                <div class="top-link text-white-50 small">
+                    <a href="#" class="text-white-50 me-3 text-decoration-none">Privacy Policy</a>/
+                    <a href="#" class="text-white-50 ms-3 text-decoration-none">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <!-- لوگو - سمت چپ -->
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-pink fw-bold m-0">Luxe<span class="text-dark">Glow</span></h1>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link ">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0 border-0 shadow-sm">
+                                <a href="cart.html" class="dropdown-item">Cart</a>
+                                <a href="checkout.html" class="dropdown-item active">Checkout</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="d-flex align-items-center">
+
+                        <button class="btn btn-outline-pink btn-md-square rounded-circle me-3" data-bs-toggle="modal"
+                            data-bs-target="#searchModal">
+                            <i class="fas fa-search text-pink"></i>
+                        </button>
+
+
+                        <a href="cart.html" class="position-relative me-3 text-decoration-none">
+                            <i class="fas fa-shopping-bag fa-2x text-pink"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white"
+                                style="font-size: 11px; border: 2px solid #fff;">
+                                3
+                            </span>
+                        </a>
+
+
+                        <a href="#" class="text-decoration-none">
+                            <i class="fas fa-user fa-2x text-pink"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <div class="container-fluid page-header py-5 position-relative"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-4 fw-bold mb-3">Checkout</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html" class="text-pink-light text-decoration-none">Home</a>
+                </li>
+                <li class="breadcrumb-item"><a href="#" class="text-pink-light text-decoration-none">Pages</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Checkout</li>
+            </ol>
+        </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <h1 class="mb-5 fw-bold text-dark display-6 fs-3">Billing details</h1>
+            <form action="" method="POST">
+                <div class="row g-5">
+
+                    <div class="col-md-12 col-lg-6 col-xl-7">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100 mb-3">
+                                    <label class="form-label my-2 text-muted small">First Name<sup>*</sup></label>
+                                    <input type="text" class="form-control py-2 border-light-custom">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-item w-100 mb-3">
+                                    <label class="form-label my-2 text-muted small">Last Name<sup>*</sup></label>
+                                    <input type="text" class="form-control py-2 border-light-custom">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Company Name<sup>*</sup></label>
+                            <input type="text" class="form-control py-2 border-light-custom">
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Address<sup>*</sup></label>
+                            <input type="text" class="form-control py-2 border-light-custom mb-2"
+                                placeholder="House Number Street Name">
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Town/City<sup>*</sup></label>
+                            <input type="text" class="form-control py-2 border-light-custom">
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Country<sup>*</sup></label>
+                            <input type="text" class="form-control py-2 border-light-custom">
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Postcode/Zip<sup>*</sup></label>
+                            <input type="text" class="form-control py-2 border-light-custom">
+                        </div>
+                        <div class="form-item mb-3">
+                            <label class="form-label my-2 text-muted small">Mobile<sup>*</sup></label>
+                            <input type="tel" class="form-control py-2 border-light-custom">
+                        </div>
+                        <div class="form-item mb-4">
+                            <label class="form-label my-2 text-muted small">Email Address<sup>*</sup></label>
+                            <input type="email" class="form-control py-2 border-light-custom">
+                        </div>
+
+                        <div class="form-check my-3">
+                            <input type="checkbox" class="form-check-input style-page-checkbox" id="Account-1">
+                            <label class="form-check-label text-muted small ms-1" for="Account-1">Create an
+                                account?</label>
+                        </div>
+                        <hr class="border-lightmy-4">
+                        <div class="form-check my-3">
+                            <input type="checkbox" class="form-check-input style-page-checkbox" id="Address-1">
+                            <label class="form-check-label text-muted small ms-1" for="Address-1">Ship to a different
+                                address?</label>
+                        </div>
+
+                        <div class="form-item mt-4">
+                            <textarea class="form-control border-light-custom pt-3" rows="6"
+                                placeholder="Order Notes (Optional)"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-6 col-xl-5">
+                        <div class="table-responsive">
+                            <table class="table text-center align-middle border-0 table-align-middle">
+                                <thead>
+                                    <tr class="small" style="border-bottom: 1px solid #dee2e6;">
+                                        <th scope="col" class="text-start pb-3 table-custom-color"
+                                            style="font-weight: 600;">Products</th>
+                                        <th scope="col" class="pb-3 table-custom-color" style="font-weight: 600;">Name
+                                        </th>
+                                        <th scope="col" class="pb-3 table-custom-color" style="font-weight: 600;">Price
+                                        </th>
+                                        <th scope="col" class="pb-3 table-custom-color" style="font-weight: 600;">
+                                            Quantity</th>
+                                        <th scope="col" class="pb-3 table-custom-color" style="font-weight: 600;">Total
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr style="border-bottom: 1px solid #dee2e6;">
+                                        <th scope="row" class="py-3 text-start border-0">
+                                            <img src="img/photo_2026-06-29_18-53-47.jpg"
+                                                class="img-fluid rounded-circle"
+                                                style="width: 50px; height: 50px; object-fit: cover;" alt="Lipstick">
+                                        </th>
+                                        <td class="py-3 text-secondary small text-start border-0">Velvet Matte Lipstick
+                                        </td>
+                                        <td class="py-3 text-secondary small border-0">$16.00</td>
+                                        <td class="py-3 text-secondary small border-0">2</td>
+                                        <td class="py-3 fw-bold border-0 table-custom-color small">$32.00</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #dee2e6;">
+                                        <th scope="row" class="py-3 text-start border-0">
+                                            <img src="img/photo_2026-06-29_18-53-44.jpg"
+                                                class="img-fluid rounded-circle"
+                                                style="width: 50px; height: 50px; object-fit: cover;" alt="Foundation">
+                                        </th>
+                                        <td class="py-3 text-secondary small text-start border-0">Glow Foundation</td>
+                                        <td class="py-3 text-secondary small border-0">$24.50</td>
+                                        <td class="py-3 text-secondary small border-0">1</td>
+                                        <td class="py-3 fw-bold border-0 table-custom-color small">$24.50</td>
+                                    </tr>
+                                    <tr style="border-bottom: 1px solid #dee2e6;">
+                                        <th scope="row" class="py-3 text-start border-0">
+                                            <img src="img/photo_2026-06-29_18-53-40.jpg"
+                                                class="img-fluid rounded-circle"
+                                                style="width: 50px; height: 50px; object-fit: cover;" alt="Nail Polish">
+                                        </th>
+                                        <td class="py-3 text-secondary small text-start border-0">Luxury Nail Polish
+                                        </td>
+                                        <td class="py-3 text-secondary small border-0">$12.00</td>
+                                        <td class="py-3 text-secondary small border-0">1</td>
+                                        <td class="py-3 fw-bold border-0 table-custom-color small">$12.00</td>
+                                    </tr>
+
+                                    <tr class="border-0">
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0 text-end">
+                                            <p class="mb-0 table-custom-color fw-normal small">Subtotal</p>
+                                        </td>
+                                        <td class="py-4 border-0" style="border-bottom: 1px solid #dee2e6 !important;">
+                                            <p class="mb-0 table-custom-color fw-bold small">$68.50</p>
+                                        </td>
+                                    </tr>
+
+                                    <tr style="border-bottom: 1px solid #dee2e6;">
+                                        <td class="py-5 border-0"></td>
+                                        <td class="py-5 border-0"></td>
+                                        <td class="py-5 border-0 text-start" valign="top">
+                                            <p class="mb-0 table-custom-color fw-normal small">Shipping</p>
+                                        </td>
+                                        <td colspan="2" class="py-5 text-start border-0"
+                                            style="padding-left: 3rem !important;">
+                                            <div class="form-check mb-3">
+                                                <input type="radio" class="form-check-input style-page-radio"
+                                                    name="shipping_method" id="shipping-1" checked>
+                                                <label class="form-check-label text-muted small ms-1"
+                                                    for="shipping-1">Free Shipping</label>
+                                            </div>
+                                            <div class="form-check mb-3">
+                                                <input type="radio" class="form-check-input style-page-radio"
+                                                    name="shipping_method" id="shipping-2">
+                                                <label class="form-check-label text-muted small ms-1"
+                                                    for="shipping-2">Flat rate: $15.00</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input type="radio" class="form-check-input style-page-radio"
+                                                    name="shipping_method" id="shipping-3">
+                                                <label class="form-check-label text-muted small ms-1"
+                                                    for="shipping-3">Local Pickup: $8.00</label>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr class="border-0">
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0"></td>
+                                        <td class="py-4 border-0 text-end">
+                                            <p class="mb-0 table-custom-color fw-bold small"
+                                                style="letter-spacing: 0.5px;">TOTAL</p>
+                                        </td>
+                                        <td class="py-4 border-0">
+                                            <p class="mb-0 fw-bold fs-5 text-pink">$68.50</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="payment-methods mt-4 pt-2">
+                            <div class="row g-3 text-start">
+                                <div class="col-12 mb-2">
+                                    <div class="form-check text-start">
+                                        <input type="radio" class="form-check-input style-page-radio"
+                                            name="payment_method" id="payment-1" checked>
+                                        <label class="form-check-label fw-medium small ms-1 table-custom-color"
+                                            for="payment-1">Direct Bank Transfer</label>
+                                    </div>
+                                    <p class="text-muted small mt-2 lh-base ps-4"
+                                        style="font-size: 13px; color: #747d88 !important;">
+                                        Make your payment directly into our bank account. Please use your Order ID as
+                                        the payment reference. Your order will not be shipped until the funds have
+                                        cleared in our account.
+                                    </p>
+                                </div>
+                                <div class="col-12 border-top pt-3">
+                                    <div class="form-check text-start">
+                                        <input type="radio" class="form-check-input style-page-radio"
+                                            name="payment_method" id="payment-2">
+                                        <label class="form-check-label fw-medium small ms-1 table-custom-color"
+                                            for="payment-2">Check Payments</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 border-top pt-3">
+                                    <div class="form-check text-start">
+                                        <input type="radio" class="form-check-input style-page-radio"
+                                            name="payment_method" id="payment-3">
+                                        <label class="form-check-label fw-medium small ms-1 table-custom-color"
+                                            for="payment-3">Cash On Delivery</label>
+                                    </div>
+                                </div>
+                                <div class="col-12 border-top pt-3 mb-4">
+                                    <div class="form-check text-start">
+                                        <input type="radio" class="form-check-input style-page-radio"
+                                            name="payment_method" id="payment-4">
+                                        <label class="form-check-label fw-medium small ms-1 table-custom-color"
+                                            for="payment-4">Paypal</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit"
+                            class="btn btn-checkout-final w-100 text-uppercase transition-3s shadow-sm">
+                            Place Order
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--footer start-->
+    <div class="container-fluid bg-dark text-white-50 footer" style="margin:0; padding:0;">
+        <div class="container py-5"> <!-- ✅ این container هست نه container-fluid -->
+            <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(241, 122, 155, 0.2);">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-3">
+                        <a href="index.html" class="text-decoration-none">
+                            <h1 class="text-pink fw-bold mb-0">Luxe<span class="text-white">Glow</span></h1>
+                            <p class="text-muted small mb-0">Premium Cosmetics</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative mx-auto">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5 rounded-pill" type="email"
+                                placeholder="Your Email">
+                            <button type="button"
+                                class="btn bg-pink text-white position-absolute top-0 end-0 py-2 mt-2 me-2 rounded-pill fw-bold btn-sm">Subscribe
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-lg-end">
+                        <div class="d-flex justify-content-lg-end justify-content-center">
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Why People Love Us!</h4>
+                        <p class="mb-4 small">We provide 100% organic and cruelty-free cosmetics that enhance your
+                            natural beauty while protecting your skin health.</p>
+                        <a href="#" class="btn btn-outline-pink rounded-pill px-4 py-2 fw-bold btn-sm">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Shop Info</h4>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">About Us</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Contact Us</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Privacy Policy</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Terms & Condition</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Account</h4>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">My Account</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Shopping Cart</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Wishlist</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Order History</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item text-start">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Contact</h4>
+                        <p class="mb-2 small">Address: 1429 Luxury Rd, NY, USA</p>
+                        <p class="mb-2 small">Email: info@luxeglow.com</p>
+                        <p class="mb-2 small">Phone: +0123 4567 8910</p>
+                        <p class="mb-3 small fw-bold text-white">Payment Accepted</p>
+                        <div class="d-flex text-white-50 fs-3">
+                            <i class="fab fa-cc-visa me-2"></i>
+                            <i class="fab fa-cc-mastercard me-2"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

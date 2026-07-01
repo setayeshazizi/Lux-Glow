@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Detail - LuxeGlow</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5.3.3 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Font Awesome 6.4.2 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+     <!-- Favicon -->
+<link rel="icon" type="image/png" href="img/photo_2026-06-30_09-28-29-removebg-preview.png">
+
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar bg-dark d-none d-lg-block py-2">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="top-info text-white-50 small">
+                    <span class="me-3"><i class="fas fa-map-marker-alt text-pink me-2"></i>123 Luxury Ave, New
+                        York</span>
+                    <span><i class="fas fa-envelope text-pink me-2"></i>support@luxeglow.com</span>
+                </div>
+                <div class="top-link text-white-50 small">
+                    <a href="#" class="text-white-50 me-3 text-decoration-none">Privacy Policy</a>/
+                    <a href="#" class="text-white-50 ms-3 text-decoration-none">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top bg-white shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light py-3">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-pink fw-bold m-0">Luxe<span class="text-dark">Glow</span></h1>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="shop.html" class="nav-link active">Shop</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu m-0 border-0 shadow-sm">
+                                <a href="cart.html" class="dropdown-item">Cart</a>
+                                <a href="checkout.html" class="dropdown-item">Checkout</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="d-flex align-items-center">
+                        <button class="btn btn-outline-pink btn-md-square rounded-circle me-3" data-bs-toggle="modal"
+                            data-bs-target="#searchModal">
+                            <i class="fas fa-search text-pink"></i>
+                        </button>
+
+
+                        <a href="cart.html" class="position-relative me-3 text-decoration-none">
+                            <i class="fas fa-shopping-bag fa-2x text-pink"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark text-white"
+                                style="font-size: 11px; border: 2px solid #fff;">
+                                3
+                            </span>
+                        </a>
+
+
+                        <a href="#" class="text-decoration-none">
+                            <i class="fas fa-user fa-2x text-pink"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+
+    <!-- Page Header Start  -->
+    <div class="container-fluid page-header py-5 position-relative">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-4 fw-bold mb-3">Shop Detail</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html" class="text-pink-light text-decoration-none">Home</a>
+                </li>
+                <li class="breadcrumb-item"><a href="#" class="text-pink-light text-decoration-none">Pages</a></li>
+                <li class="breadcrumb-item text-white active" aria-current="page">Shop Detail</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <div class="container-fluid py-5 mt-5">
+        <div class="container py-5">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-8 col-xl-9">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="border rounded img-zoom-container" style="height: 400px; overflow: hidden;">
+                                <img src="img/photo4.jpg" class="img-fluid w-100 h-100 product-img-style"
+                                    style="object-fit: cover;" alt="Organic Glowing Serum">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h4 class="fw-bold text-dark mb-3">Organic Glowing Serum</h4>
+                            <p class="text-muted small mb-3">Category: Skincare</p>
+                            <h5 class="fw-bold text-dark mb-3">$29.00</h5>
+
+                            <div class="d-flex text-warning mb-4 small">
+                                <i class="fa fa-star me-1"></i>
+                                <i class="fa fa-star me-1"></i>
+                                <i class="fa fa-star me-1"></i>
+                                <i class="fa fa-star me-1"></i>
+                                <i class="fa fa-star me-4"></i>
+                                <span class="text-muted small">(4.8 out of 5 stars)</span>
+                            </div>
+
+                            <p class="text-muted mb-4 text-justify">
+                                Our premier Vitamin C & Hyaluronic acid blend transforms dull skin into a radiant,
+                                hydrated masterpiece. Perfect for everyday use under makeup or as a nightly deep-repair
+                                treatment. Loved by creators worldwide.
+                            </p>
+
+                            <div class="input-group quantity mb-5" style="width: 140px;">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-minus rounded-circle bg-light border">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                </div>
+                                <input type="text" class="form-control form-control-sm text-center border-0" value="1">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-sm btn-plus rounded-circle bg-light border">
+                                        <i class="fa fa-plus"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <a href="#" class="btn btn-outline-pink rounded-pill px-4 py-2 mb-4">
+                                <i class="fa fa-shopping-bag text-pink me-2"></i> Add to cart
+                            </a>
+                        </div>
+
+                        <div class="col-lg-12 mt-5">
+                            <nav>
+                                <div class="nav nav-tabs mb-3 border-bottom-pink" role="tablist">
+                                    <button class="nav-link active text-dark fw-bold border-0" id="nav-about-tab"
+                                        data-bs-toggle="tab" data-bs-target="#nav-about" type="button"
+                                        role="tab">Description</button>
+                                    <button class="nav-link text-dark fw-bold border-0" id="nav-reviews-tab"
+                                        data-bs-toggle="tab" data-bs-target="#nav-reviews" type="button"
+                                        role="tab">Reviews (1)</button>
+                                </div>
+                            </nav>
+                            <div class="tab-content mb-5">
+                                <div class="tab-pane active" id="nav-about" role="tabpanel">
+                                    <p class="text-muted small">This organic formula targets hyperpigmentation, uneven
+                                        skin texture, and fine lines. Formulated without synthetic fragrances, parabens,
+                                        or sulfates. Safe for sensitive skin types.</p>
+                                    <div class="px-2">
+                                        <div class="row g-4">
+                                            <div class="col-6">
+                                                <div
+                                                    class="row bg-light align-items-center text-center justify-content-center py-2">
+                                                    <div class="col-6">
+                                                        <p class="mb-0 small text-dark fw-bold">Weight</p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p class="mb-0 small text-muted">50 ml</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="row align-items-center text-center justify-content-center py-2">
+                                                    <div class="col-6">
+                                                        <p class="mb-0 small text-dark fw-bold">Origin</p>
+                                                    </div>
+                                                    <div class="col-6">
+                                                        <p class="mb-0 small text-muted">Organic USA</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="nav-reviews" role="tabpanel">
+                                    <div class="d-flex mb-4">
+                                        <img src="img/person1.jpg"
+                                            class="img-fluid rounded-circle p-1 bg-white border me-3"
+                                            style="width: 60px; height: 60px; object-fit: cover;" alt="">
+                                        <div>
+                                            <p class="mb-1 small text-muted">June 30, 2026</p>
+                                            <div class="d-flex justify-content-between">
+                                                <h6 class="fw-bold text-dark mb-1">Jessica Miller</h6>
+                                                <div class="d-flex text-warning small ms-3">
+                                                    <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                                        class="fa fa-star"></i>
+                                                </div>
+                                            </div>
+                                            <p class="text-muted small mb-0">Absolutely wonderful! My skin feels plumper
+                                                and highly hydrated from day one.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-xl-3">
+                    <div class="row g-4 frutable-sidebar">
+                        <div class="col-12">
+                            <h4 class="fw-bold text-dark mb-3">Categories</h4>
+                            <ul class="list-unstyled fruite-categorie">
+                                <li class="d-flex justify-content-between class-link-hover py-2">
+                                    <a href="#" class="text-muted small"><i
+                                            class="fas fa-apple-alt me-2 text-pink"></i>Skincare</a>
+                                    <span class="text-muted small">(3)</span>
+                                </li>
+                                <li class="d-flex justify-content-between class-link-hover py-2">
+                                    <a href="#" class="text-muted small"><i
+                                            class="fas fa-apple-alt me-2 text-pink"></i>Makeup</a>
+                                    <span class="text-muted small">(5)</span>
+                                </li>
+                                <li class="d-flex justify-content-between class-link-hover py-2">
+                                    <a href="#" class="text-muted small"><i
+                                            class="fas fa-apple-alt me-2 text-pink"></i>Perfumes</a>
+                                    <span class="text-muted small">(2)</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <div class="position-relative rounded overflow-hidden" style="height: 350px;">
+                                <img src="img/photo_2026-06-29_18-49-40.jpg" class="img-fluid w-100 h-100"
+                                    style="object-fit: cover;" alt="">
+                                <div class="position-absolute top-50 start-0 translate-middle-y ps-4 text-white">
+                                    <h3 class="fw-bold text-pink mb-1">Luxury</h3>
+                                    <h4 class="fw-bold text-dark mb-1">Cosmetics</h4>
+                                    <p class="text-dark fw-bold mb-0">Banner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer start-->
+    <div class="container-fluid bg-dark text-white-50 footer" style="margin:0; padding:0;">
+        <div class="container py-5">
+            <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(241, 122, 155, 0.2);">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-3">
+                        <a href="index.html" class="text-decoration-none">
+                            <h1 class="text-pink fw-bold mb-0">Luxe<span class="text-white">Glow</span></h1>
+                            <p class="text-muted small mb-0">Premium Cosmetics</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="position-relative mx-auto">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5 rounded-pill" type="email"
+                                placeholder="Your Email">
+                            <button type="button"
+                                class="btn bg-pink text-white position-absolute top-0 end-0 py-2 mt-2 me-2 rounded-pill fw-bold btn-sm">Subscribe
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 text-lg-end">
+                        <div class="d-flex justify-content-lg-end justify-content-center">
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle me-2" href=""><i
+                                    class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-pink btn-md-square rounded-circle" href=""><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Why People Love Us!</h4>
+                        <p class="mb-4 small">We provide 100% organic and cruelty-free cosmetics that enhance your
+                            natural beauty while protecting your skin health.</p>
+                        <a href="#" class="btn btn-outline-pink rounded-pill px-4 py-2 fw-bold btn-sm">Read More</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Shop Info</h4>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">About Us</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Contact Us</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Privacy Policy</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Terms & Condition</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex flex-column text-start footer-item">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Account</h4>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">My Account</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Shopping Cart</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Wishlist</a>
+                        <a class="btn-link text-white-50 text-decoration-none mb-2 small" href="">Order History</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-item text-start">
+                        <h4 class="text-light mb-3 fw-bold fs-5">Contact</h4>
+                        <p class="mb-2 small">Address: 1429 Luxury Rd, NY, USA</p>
+                        <p class="mb-2 small">Email: info@luxeglow.com</p>
+                        <p class="mb-2 small">Phone: +0123 4567 8910</p>
+                        <p class="mb-3 small fw-bold text-white">Payment Accepted</p>
+                        <div class="d-flex text-white-50 fs-3">
+                            <i class="fab fa-cc-visa me-2"></i>
+                            <i class="fab fa-cc-mastercard me-2"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
